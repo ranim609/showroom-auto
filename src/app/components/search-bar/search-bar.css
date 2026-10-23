@@ -1,0 +1,46 @@
+
+.container {
+  margin: 30px;
+  padding: 5px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(108, 104, 104);
+  border-radius: 20px;
+}
+
+input {
+  all: unset;
+  font-weight: bold;
+}
+
+fa-icon {
+  cursor: pointer;
+}
+
+label {
+  color: rgb(249, 25, 205);
+  font-weight: bold;
+}
+
+.auto-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px;
+  border: none;
+  width: auto;
+}
+
+.auto-card {
+  width: 280px;
+  padding: 15px;
+  border: 1px solid rgb(108, 104, 104);
+  border-radius: 10px;
+}
+
+.auto-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
